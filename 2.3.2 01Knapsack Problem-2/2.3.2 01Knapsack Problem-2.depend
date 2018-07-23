@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1532331450 source:c:\users\ys\desktop\procedure game\2.3.2 01knapsack problem-2\main.cpp
+	<iostream>
+	<cstdio>
+	<math.h>
+
