@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1532923832 source:c:\users\ys\desktop\procedure game\poj 3669 meteor shower\main.cpp
+	<iostream>
+	<cstdio>
+	<queue>
+	<string.h>
+

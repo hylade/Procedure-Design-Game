@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1533093736 source:c:\users\ys\desktop\procedure game\aoj 0121 seven puzzle\main.cpp
+	<iostream>
+	<cstdio>
+	<map>
+	<string.h>
+	<queue>
+
