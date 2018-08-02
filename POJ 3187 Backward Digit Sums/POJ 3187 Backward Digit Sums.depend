@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1533181240 source:c:\users\ys\desktop\procedure game\poj 3187 backward digit sums\main.cpp
+	<iostream>
+	<cstdio>
+	<string.h>
+	<algorithm>
+

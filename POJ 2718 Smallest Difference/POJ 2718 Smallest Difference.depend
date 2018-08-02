@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1533174966 source:c:\users\ys\desktop\procedure game\poj 2718 smallest difference\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<string.h>
+
