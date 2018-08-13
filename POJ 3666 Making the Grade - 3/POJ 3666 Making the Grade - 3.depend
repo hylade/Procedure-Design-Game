@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1534140197 source:c:\users\ys\desktop\procedure game\poj 3666 making the grade - 3\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<math.h>
+	<string.h>
+
