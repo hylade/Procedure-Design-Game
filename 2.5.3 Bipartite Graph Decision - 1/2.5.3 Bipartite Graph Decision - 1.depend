@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534736976 source:c:\users\ys\desktop\procedure game\2.5.3 bipartite graph decision - 1\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+
