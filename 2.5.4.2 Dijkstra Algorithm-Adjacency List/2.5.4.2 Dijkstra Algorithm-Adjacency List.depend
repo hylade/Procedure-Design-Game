@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535020355 source:c:\users\ys\desktop\procedure game\2.5.4.2 dijkstra algorithm-adjacency list\main.cpp
+	<iostream>
+	<cstdio>
+	<string.h>
+
