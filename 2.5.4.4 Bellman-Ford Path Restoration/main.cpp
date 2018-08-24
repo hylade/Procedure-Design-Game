@@ -6,6 +6,7 @@ using namespace std;
 
 #define inf 0x7f7f7f7f
 int V, E;
+int prev[100]; // 最短路上的前驱点
 struct Edge
 {
     int u, v;
@@ -30,6 +31,7 @@ bool Bellman_Ford(int s)
             if (d[edge[j].v] > d[edge[j].u] + edge[j].cost)
             {
                 d[edge[j].v] = d[edge[j].u] + edge[j].cost;
+                prev[edge[j].v] = edge[j].u; // 记录前驱点
             }
         }
     }
@@ -46,6 +48,19 @@ bool Bellman_Ford(int s)
     return flag;
 }
 
+// 路径关键函数
+vector<int> get_path(int t)
+{
+    vector<int> path;
+    // 倒退路径
+    for(; t != -1; t = prev[t])
+    {
+        path.push_back(t);
+    }
+    // 逆序排列
+    reverse(path.begin(), path.end());
+    return path;
+}
 
 int main()
 {
@@ -55,6 +70,7 @@ int main()
     {
         scanf("%d %d %d", &edge[i].u, &edge[i].v, &edge[i].cost);
     }
+    fill(prev+1, prev+V+1, -1);
     if (Bellman_Ford(1))
     {
         for (int i = 1; i <= V; i++)
@@ -67,6 +83,15 @@ int main()
         printf("Negative circle\n");
     }
 
+    vector<int> path;
+    path = get_path(V);
+    // 输出路径
+    for (vector<int>::size_type i = 0; i < path.size(); i++)
+    {
+        cout << path[i] << " ";
+
+    }
+    cout << endl;
 
     return 0;
 }

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1535077841 source:c:\users\ys\desktop\procedure game\2.5.4.4 bellman-ford path restoration\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<algorithm>
+
