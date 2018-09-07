@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1535600827 source:c:\users\ys\desktop\procedure game\aoj 2200 mr.rito post office\main.cpp
+	<iostream>
+	<cstdio>
+	<string.h>
+

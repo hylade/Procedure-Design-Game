@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1535591470 source:c:\users\ys\desktop\procedure game\aoj 2249 road construction\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<string.h>
+	<vector>
+	<queue>
+
