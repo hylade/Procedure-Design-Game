@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1531728745 source:c:\users\ys\desktop\procedure game\2.2.3 bset cow line\main.cpp
+	<iostream>
+	<cstdio>
+	<string.h>
+

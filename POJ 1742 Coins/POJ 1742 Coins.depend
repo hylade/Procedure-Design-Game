@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1533866343 source:c:\users\ys\desktop\procedure game\poj 1742 coins\main.cpp
+	<iostream>
+	<cstdio>
+	<string.h>
+	<algorithm>
+	<math.h>
+

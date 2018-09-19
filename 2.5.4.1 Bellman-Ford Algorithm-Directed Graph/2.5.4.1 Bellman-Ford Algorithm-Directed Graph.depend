@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1535076761 source:c:\users\ys\desktop\procedure game\2.5.4.1 bellman-ford algorithm-directed graph\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<algorithm>
+

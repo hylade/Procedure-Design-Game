@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534918855 source:c:\users\ys\desktop\procedure game\2.5.4.2 dijkstra algorithm-adjacency matrix-priority queue\main.cpp
+	<iostream>
+	<cstdio>
+	<queue>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1533261535 source:c:\users\ys\desktop\procedure game\poj 3050 hopscotch\main.cpp
+	<iostream>
+	<cstdio>
+	<set>
+	<algorithm>
+
